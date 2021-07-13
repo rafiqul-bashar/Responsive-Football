@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ________________
+
+    Common Styles Area
+___________________ */
+
+
+/* ________________
+
+   Header Are
+___________________ */
+
+header{
+    width: 100%;
+    /* height: 677px; */
+    background: #2D25A0;
+}
+            /* ______________ Nav Section_____________ */
+    .navbar{
+        padding: 42px 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }        
+
+    .nav_links{
+        
+    }
+    .nav_links a {
+        padding-right: 36px ;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }    
+
+    .navbar .fas{
+        padding-left: 0px;
+        padding-right: 12px;
+    }
+            /* ______________ Top Banner Section_____________ */
+
+    .banner{
+        margin-top: 77px;
+        display: flex;
+        align-items: center;
+    }
+    .banner_tittle{
+        width: 50%;
+        margin-left: 150px;
+        
+    }
+    .banner_tittle h1 {
+        color: whitesmoke;
+        font-weight: 700;
+        font-size: 64px;
+        margin-bottom: 27px;
+        
+    }
+            
+    .banner_pic{
+        width: 50%;
+    }
+    .banner_pic img{
+        width: 556px;
+        height: 440px;
+    }
+/* ________________
+
+    Players Grid
+___________________ */
+
+.container{
+
+    width: 1050px;
+    margin: 0 auto;
+}
+.players{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px ;
+    grid-row-gap: 27px ;
+}
+.thumbnails img{
+    width: 300px;
+    height: 256px;
+}
+
+.player{
+    padding: 15px;
+    background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.players_name{
+    margin-top: 16px;
+    font-weight: 700;
+    color: #18191F;
+    font-size: 28px;
+}
+
+.info_texts{
+    margin-top: 10px;
+    font-weight: 400
+    font-size: 16px;
+    color: #6C6C6C ;
+}
+
+
+
+/* ________________
+
+    Highlight Grid
+___________________ */
+.highlight{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+}
+.img_div{
+    width: 50%;
+}
+.img_div img{
+    width: 567px;
+    height: 427px;
+}
+
+.texts_div{
+    width: 50%;
+
+}
+
+.texts_div h1 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+.texts_div p {
+    color: #6c6c6c;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.button {
+   width: 140px;
+    background: #E02C6D;
+    color: whitesmoke;
+  
+    padding: 12px;
+    height: 44px;
+}
+.button a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 16;
+    font-weight: 500;
+}
+.fas{
+    margin-left: 12px;
+}
+
+/* ________________
+
+    Footer Area
+___________________ */
+
+footer{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo img{
+    
+    width: 484px;
+    height: 110px;
+}
+ .social_icons{
+    margin: 20px 0;
+}
+footer .fas,.fab {
+    color: #969BAB;
+    padding: 14px;
+    width: 32px;
+    height: 32px;
+}
+.last_text{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 60px;
+}

@@ -1,0 +1,27 @@
+Orginzed Coding
+
+Neat Texts
+
+Accurate sizing
+
+Grid and Flex
+
+MediaQueries 
+
+Must Animation and transition in section One
+
+////
+
+
+FontAwesome
+Differnt Fonts and Colors
+
+
+ICOS [ 
+	<i class="fas fa-sign-in-alt"></i> ---- Log In
+	<i class="fas fa-arrow-right"></i> ---- Right Arrow
+	<i class="fas fa-arrow-up"></i>    ---- Up Arrow
+	<i class="fab fa-instagram"></i>   ---- Insta
+	<i class="fas fa-basketball-ball"></i>- dribble
+	<i class="fab fa-twitter"></i>     ---- Twitter
+	<i class="fab fa-youtube"></i> Youtube
