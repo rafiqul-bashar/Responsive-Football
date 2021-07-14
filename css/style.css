@@ -55,9 +55,9 @@ header{
         display: flex;
         align-items: center;
     }
-    .banner_tittle{
+    .banner_tittle .button{
        
-        
+        margin-left: 140px;
     }
     .banner_tittle h1 {
         color: whitesmoke;
@@ -205,7 +205,7 @@ footer p {
 ___________________ */
 
 
-/* ___________Tab and Pad_________ */
+/* ____________Mobile___________ */
 
 @media  (max-width:488px) {
   
@@ -236,6 +236,10 @@ ___________________ */
     margin-left: 0px;
     
 }
+.banner_tittle .button{
+       
+    margin-left: 14px;
+}
   .highlight{
  width: 100%;
  flex-direction: column;
@@ -265,5 +269,3 @@ ___________________ */
         height: 175px;
     }
 }
-
-/* ____________Mobile___________ */
