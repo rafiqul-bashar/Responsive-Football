@@ -221,7 +221,7 @@ ___________________ */
   }
 
   .banner{
-
+    width: 100%;
      flex-direction: column;
   }
   .banner_pic img{
@@ -265,7 +265,9 @@ ___________________ */
         height: 63px;
     }
     footer { 
+        margin: 20px auto;
         width: 280px;
         height: 175px;
+      
     }
 }
