@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Ubuntu+Mono&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -9,7 +10,18 @@
     Common Styles Area
 ___________________ */
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
 
+h1,h2,h3{
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.half_div{
+    width: 50%;
+
+}
 /* ________________
 
    Header Are
@@ -98,7 +110,7 @@ ___________________ */
 .player{
     padding: 15px;
     background: #FFFFFF;
-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 
 .players_name{
@@ -132,10 +144,7 @@ ___________________ */
     height: 427px;
 }
 
-.half_div{
-    width: 50%;
 
-}
 
 .texts_div h1 {
     font-weight: 700;
@@ -164,7 +173,38 @@ ___________________ */
 .fas{
     margin-left: 12px;
 }
+/* ________________
 
+    Bonus Section  Area
+___________________ */
+
+hr{
+    border: 1px solid #6c6c6c;
+    margin: 8%;
+}
+
+.about_football{
+    display: flex;
+    margin: 2% 4%;
+}
+.about_football .video iframe{
+   width: 560px;
+
+}
+.about_football .text{
+    font-size: 1.5rem;
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.about_football .text p {
+    color: #6c6c6c;
+    font-size: 16px;
+}
 /* ________________
 
     Footer Area
@@ -179,7 +219,7 @@ footer{
 }
 
 .logo img{
-    
+    margin-top: 20px;
     width: 484px;
     height: 110px;
 }
@@ -220,6 +260,8 @@ ___________________ */
       width: 100%;
   }
 
+
+
   .banner{
     width: 100%;
      flex-direction: column;
@@ -240,6 +282,9 @@ ___________________ */
        
     margin-left: 14px;
 }
+
+
+
   .highlight{
  width: 100%;
  flex-direction: column;
@@ -255,6 +300,25 @@ ___________________ */
     .players{
         grid-template-columns: repeat(1,1fr);
     }
+
+
+
+    .about_football{
+        display: flex;
+        flex-direction: column;
+    }
+    .about_football .video iframe{
+        width: 270px;
+    }
+    .about_football .text{
+        font-size: 1rem;
+        padding: 4%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
 
      .logo img {
          width: 271px;
