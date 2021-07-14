@@ -17,7 +17,7 @@ FontAwesome
 Differnt Fonts and Colors
 
 
-ICOS [ 
+ICONS [ 
 	<i class="fas fa-sign-in-alt"></i> ---- Log In
 	<i class="fas fa-arrow-right"></i> ---- Right Arrow
 	<i class="fas fa-arrow-up"></i>    ---- Up Arrow
